@@ -1,3 +1,3 @@
-add <- function (x,y) {
-  x+y
+add <- function (x,...) {
+  sum(x,...)
 }
